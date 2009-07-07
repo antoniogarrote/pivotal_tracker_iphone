@@ -1,0 +1,12 @@
+//
+// Prefix header for all source files of the 'Pivotal' target in the 'Pivotal' project
+//
+
+#ifdef __OBJC__
+    #import <Foundation/Foundation.h>
+    #import <UIKit/UIKit.h>
+#endif
+
+#define USER_NAME @"username_here"
+#define PASSWORD @"password_here"
+#define TOKEN @"token_here"
